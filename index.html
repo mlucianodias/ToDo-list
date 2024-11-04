@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>TODO</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <div class="todo-list">
+      <h1>Todo List</h1>
+
+      <div>
+        <input type="text" id="novoItem"><button id="adicionarButton" onclick="createTodoItem()">Adicionar</button>
+      </div>
+
+      <div id="items">
+        <ul id="lista">
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+      loadTodoItems()
+    </script>
+  </body>
+</html>
